@@ -2,9 +2,9 @@
 #include <stdio.h>
 void main()
 {
-    int r, s, t, num, rev;
+    int r, s, t, number, rev;
     printf("enter a num : ");
-    scanf("%d", &num); // 23
+    scanf("%d", &number); // 23
     r = num / 100;
     s = (num % 100) / 10;
     t = num % 10;
