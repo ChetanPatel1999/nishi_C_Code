@@ -14,5 +14,5 @@ void main()
     printf("year : %d\n", year);
     printf("month : %d\n", month);
     printf("week : %d\n", week);
-    printf("days : %d\n", days);
+    printf("days : %d\n", days); 
 }
