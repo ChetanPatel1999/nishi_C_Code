@@ -1,4 +1,1 @@
-if (i == 5)
-        // {
-        //     continue;
-        // }
+int mat[3][3];
