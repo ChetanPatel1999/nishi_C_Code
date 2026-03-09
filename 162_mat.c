@@ -34,7 +34,7 @@ void main()
     {
         for (j = 0; j < c; j++) // 3
         {
-            if (mat[i][j] % 2 == 0)
+            if (i>=j)
             {
                 printf("%d ", mat[i][j]);
                 evenCount++;
