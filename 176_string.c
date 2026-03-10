@@ -7,9 +7,9 @@ void main()
 
     printf("name = %s\n", name);
 
-    printf("%c\n", name[0]);
-    printf("%c\n", name[1]);
-    printf("%c\n", name[2]);
+    printf("%c\n", name[0]); // c
+    printf("%c\n", name[1]); // h
+    printf("%c\n", name[2]);//  e
 
     name[0] = 'j';
     
