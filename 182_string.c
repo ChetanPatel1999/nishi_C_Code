@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    char name[50];
+    char name[5];
     printf("enter string : ");
     scanf("%[^\n]s", name);
     printf("string = %s\n", name);
