@@ -11,6 +11,9 @@ int length(char s[])
 }
 void main()
 {
+    int res = length("test");
+    printf("%d\n", res);
+
     char s1[30];
     printf("enter string : ");
     gets(s1); // hello
