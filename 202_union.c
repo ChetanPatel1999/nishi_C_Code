@@ -9,13 +9,12 @@ union pen
 };
 void main()
 {
-
     union pen p1;
     printf("size of struct = %d\n",sizeof(p1));
     strcpy(p1.c_name, "cello");
 
     p1.price = 5;
-    
+
     // p1.rating = 3.4;
     // strcpy(p1.ink_color, "blue");
 
@@ -25,7 +24,5 @@ void main()
     printf("pen price: %d\n", p1.price);
     printf("pen rating: %.1f\n", p1.rating);
     printf("pen ink_color: %s\n", p1.ink_color);
-    printf("------------------------------------------\n");
-
-    
+    printf("------------------------------------------\n");  
 }
