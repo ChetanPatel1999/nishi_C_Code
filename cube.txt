@@ -1,0 +1,5 @@
+cube of 1 = 1
+cube of 2 = 8
+cube of 3 = 27
+cube of 4 = 64
+cube of 6 = 216
